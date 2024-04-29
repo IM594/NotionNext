@@ -60,7 +60,7 @@ const Catalog = ({ toc }) => {
   }
 
   return <div className='px-3 py-1 dark:text-white text-black'>
-    <div className='w-full'><i className='mr-1 fas fa-stream' />{locale.COMMON.TABLE_OF_CONTENTS}</div>
+    <div className='w-full mb-2'><i className='ml-2 mr-3 fas fa-stream' />{locale.COMMON.TABLE_OF_CONTENTS}</div>
     <div className='overflow-y-auto max-h-36 lg:max-h-96 overscroll-none scroll-hidden' ref={tRef}>
       <nav className='h-full'>
         {toc.map((tocItem) => {
@@ -70,7 +70,7 @@ const Catalog = ({ toc }) => {
             <a
               key={id}
               href={`#${id}`}
-              className={`notion-table-of-contents-item duration-300 transform font-light dark:text-gray-200
+              className={`notion-table-of-contents-item duration-300 transform font-light rounded-xs dark:text-gray-200
             notion-table-of-contents-item-indent-level-${tocItem.indentLevel} `}
             >
               <span style={{ display: 'inline-block', marginLeft: tocItem.indentLevel * 16 }}
