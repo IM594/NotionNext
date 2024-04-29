@@ -47,7 +47,7 @@ export default function LatestPostsGroupMini ({ latestPosts, siteInfo }) {
                     <div
                         className={
                             (selected ? ' text-indigo-400 ' : 'dark:text-gray-400 ') +
-                            ' text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded ' +
+                            ' text-sm overflow-x-hidden hover:text-indigo-600 px-4 duration-200 w-full rounded ' +
                             ' hover:text-indigo-400 cursor-pointer items-center flex'
                         }
                     >
