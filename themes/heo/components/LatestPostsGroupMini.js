@@ -22,9 +22,8 @@ export default function LatestPostsGroupMini ({ latestPosts, siteInfo }) {
   }
 
   return <>
-        <div className=" mb-2 px-1 flex flex-nowrap justify-between">
+        <div className=" mb-2 flex flex-nowrap justify-between">
             <div>
-                <i className="mr-2 fas fas fa-history" />
                 {locale.COMMON.LATEST_POSTS}
             </div>
         </div>
