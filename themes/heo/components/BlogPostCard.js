@@ -55,7 +55,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
                         </main>
                     )}
 
-                    <div className="md:flex-nowrap flex-wrap md:justify-start inline-block">
+                    <div className="md:flex-nowrap flex-wrap md:justify-start inline-block -ml-2">
                         <div>
                             {' '}
                             {post.tagItems?.map(tag => (
