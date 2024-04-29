@@ -59,8 +59,7 @@ const BLOG = {
   // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
   FONT_URL: [
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
-    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap',
-    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700;900&display=swap',
+    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap',
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
   ],
@@ -88,8 +87,7 @@ const BLOG = {
   FONT_SERIF: [
     // '"LXGW WenKai"',
     // 'Bitter',
-    '"Ubuntu Mono"', 
-    'monospace',
+    '"Ubuntu"', 
     '"Noto Serif SC"',
     'SimSun',
     '"Times New Roman"',
