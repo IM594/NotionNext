@@ -297,7 +297,7 @@ const LayoutSlug = props => {
         {!lock && (
           <div
             id="article-wrapper"
-            className="overflow-x-auto flex-grow mx-auto md:w-full md:px-5 "
+            className="overflow-x-auto flex-grow mx-auto md:w-full md:px-5 pb-10 "
           >
             <article
               itemScope
